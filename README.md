@@ -9,7 +9,7 @@ The whole purpose of this is so that it's self referencing and easy to read. Mos
 
 Currently there is nothing in here but I'll be updating over the week. 
 
-## To be clear ...
+# To be clear ...
 I actually decided to bring a few people into this and hey are currently also maintainers with two of us being the overall curators of the project.
 
 It's a (re)learning experiance for all of us. I wanted to come back to basics but then realized that many more than just I could benefit from the labours of my work.
@@ -18,3 +18,6 @@ First thing's first though. I need to do the table of contents and then go from 
 
 In the mean time since I don't plan to have a twitter or blog for this (everything is within the code) I'll have the updates written within this file. Newest first at the bottom.
 
+### Updates
+### Tue Dec 11 20:53:35 EST 2012
+Added the POM project, project files and sub folders. 
