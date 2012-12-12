@@ -8,3 +8,13 @@ Mostly this is for engineers and the layman that want an easy to read and use ma
 The whole purpose of this is so that it's self referencing and easy to read. Most of the documentation will be inline. Function doc blocks will go into the overview of the code while in-function comments will, hopefully, make the code easier to understand as to what is intended to happen.
 
 Currently there is nothing in here but I'll be updating over the week. 
+
+## To be clear ...
+I actually decided to bring a few people into this and hey are currently also maintainers with two of us being the overall curators of the project.
+
+It's a (re)learning experiance for all of us. I wanted to come back to basics but then realized that many more than just I could benefit from the labours of my work.
+
+First thing's first though. I need to do the table of contents and then go from there. 
+
+In the mean time since I don't plan to have a twitter or blog for this (everything is within the code) I'll have the updates written within this file. Newest first at the bottom.
+
