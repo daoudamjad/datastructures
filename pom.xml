@@ -10,7 +10,7 @@
   <url>http://maven.apache.org</url>
   <name>Learning data structures</name>
   <modules>
-    <module>core</module>
+    <module>start-here</module>
     <module>collections</module>
     <module>arrays</module>
     <module>simple-sorting</module>
