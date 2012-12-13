@@ -12,14 +12,14 @@ Currently there is nothing in here but I'll be updating over the week.
 # To be clear ...
 I actually decided to bring a few people into this and hey are currently also maintainers with two of us being the overall curators of the project.
 
-It's a (re)learning experiance for all of us. I wanted to come back to basics but then realized that many more than just I could benefit from the labours of my work.
+It's a (re)learning experience for all of us. I wanted to come back to basics but then realized that many more than just I could benefit from the labours of my work.
 
 First thing's first though. I need to do the table of contents and then go from there.
 
 In the mean time since I don't plan to have a twitter or blog for this (everything is within the code) I'll have the updates written within this file. Newest first at the bottom.
 
 ### Getting started
-You'll need to setup your enviroment so that you can run and edit these tests in order to learn more.
+You'll need to setup your environment so that you can run and edit these tests in order to learn more.
 
 I do all my development in Netbeans on OSX. So cry and complain all you want I'm going to base all of my instructions on that. Sorry folks (not really sorry).
 * Download Netbeans: http://netbeans.org/downloads/
