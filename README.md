@@ -9,6 +9,8 @@ The whole purpose of this is so that it's self referencing and easy to read. Mos
 
 Currently there is nothing in here but I'll be updating over the week.
 
+Remember, this "course" is interested in learning the fundamentals of data structures and not the Java implementations of a given data structure. If you want to get a good job in a computer science related field then you'll need to know these fundamentals.
+
 # To be clear ...
 I actually decided to bring a few people into this and hey are currently also maintainers with two of us being the overall curators of the project.
 
