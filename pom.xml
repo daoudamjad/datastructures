@@ -10,24 +10,41 @@
   <url>http://maven.apache.org</url>
   <name>Learning data structures</name>
   <modules>
+    <!-- Basis of everything -->
     <module>start-here</module>
     <module>collections</module>
+    <module>recursion</module>
+
+    <!-- Simple -->
     <module>arrays</module>
-    <module>simple-sorting</module>
+    <module>linked-lists</module>
     <module>stacks</module>
     <module>queues</module>
-    <module>linked-lists</module>
-    <module>recursion</module>
-    <module>advanced-sorting</module>
+
+    <!-- Trees -->
     <module>binary-trees</module>
     <module>red-black-trees</module>
     <module>two-three-four-trees</module>
+
+    <!-- Sorting, searching, indexing -->
+    <module>simple-sorting</module>
+    <module>advanced-sorting</module>
+    <module>searching</module>
+    <module>indexing</module>
+
+    <!-- Advanced -->
     <module>hash-tables</module>
     <module>heaps</module>
     <module>graphs</module>
     <module>weighted-graphs</module>
+
+    <!-- Theory & Analysis -->
+    <module>analysis</module>
+    <module>lower-bounds</module>
+    <module>patterns</module>
+    <module>limits</module>
   </modules>
-  
+
   <dependencies>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -41,7 +58,7 @@
       <version>4.8.2</version>
     </dependency>
   </dependencies>
-  
+
   <developers>
     <developer>
       <id>Data-Structures</id>

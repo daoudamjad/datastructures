@@ -1,6 +1,8 @@
 Data Structures
 ==============
 
+The basis of all this work is here: http://people.cs.vt.edu/~shaffer/Book/
+
 A data structures reference manual for Java engineers that "forget" how to use them.
 
 Mostly this is for engineers and the layman that want an easy to read and use manual for data structures. I've found that most books that delve into the topic seem to make it either far too academic or complicated to read. On top of that it's code snippets where I find it's easier to learn with lots of teaching and full working code so that you can tinker.
