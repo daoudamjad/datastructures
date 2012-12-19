@@ -1,17 +1,23 @@
 package lds.collections;
 
 /**
+ * @file
  * The list implementation
  *
- * The fully qualified name is used because the name for the interface is List
+ * The array implementation of the list interface is used because it is quick to
+ * search and them memory footprint is known up front. The size of the array
+ * will be the size of the array (10 by default) times the size (in bytes) of
+ * the type it's storing.
+ *
+ * The fully qualified name is used because the name for the interface is ArrayList
  * and would be "cyclic inheritance" but I want to keep the name for the
  * interface easy and clean to remember in it's own package. So there's the
- * reasoning for the fully qualified name space for List.
+ * reasoning for the fully qualified name space for ArrayList.
  *
  * @author Andric Villanueva
  */
-class List<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
-   // Default size
+public class ArrayList<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
+  // Default size
   protected static final int defaultSize = 10;
 
   // Maximum size of list
@@ -29,7 +35,7 @@ class List<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
   /**
    * Create a list with the default capacity.
    */
-  List() {
+  public ArrayList() {
     // Can't say that I knew I could do this.
     this(defaultSize);
   }
@@ -41,7 +47,7 @@ class List<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
    *   size Max number of elements list can contain.
    */
   @SuppressWarnings("unchecked")
-  List(int size) {
+  public ArrayList(int size) {
     maxSize = size;
     listSize = curr = 0;
     listArray = (GENERIC[]) new Object[size];
@@ -60,7 +66,14 @@ class List<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
   }
 
   /**
-   * Insert "it" at current position
+   * Insert "it" at current position that is stored in the member item.
+   *
+   * Since the cursor can be anywhere within the array we need to insert at the
+   * given pointer then shift everything forward.
+   *
+   * @todo Override this class to allow the insert to add when at capacity. This
+   * will effectively pop anything off the end if we are inserting when at
+   * capacity.
    */
   public void insert(GENERIC it) {
     assert listSize < maxSize : "List capacity exceeded";
@@ -129,7 +142,7 @@ class List<GENERIC> implements lds.collections.interfaces.List<GENERIC> {
   }
 
   /**
-   * @return List size
+   * @return ArrayList size
    */
   public int length() {
     return listSize;
