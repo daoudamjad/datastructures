@@ -1,4 +1,4 @@
-package lds.arrays;
+package lds.collections;
 
 import lds.collections.ArrayList;
 

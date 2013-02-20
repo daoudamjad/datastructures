@@ -40,4 +40,11 @@ I do all my development in Netbeans on OSX. So cry and complain all you want I'm
 
 ### Updates
 ### Tue Dec 11 20:53:35 EST 2012
+<<<<<<< HEAD
 Added the POM project, project files and sub folders.
+=======
+Added the POM project, project files and sub folders. 
+
+### The list I plan to cover as best I can AS WELL as doing the book.
+http://en.wikipedia.org/wiki/List_of_data_structures
+>>>>>>> Moved just about everything around.
