@@ -13,7 +13,7 @@ Currently there is nothing in here but I'll be updating over the week.
 
 Remember, this "course" is interested in learning the fundamentals of data structures and not the Java implementations of a given data structure. If you want to get a good job in a computer science related field then you'll need to know these fundamentals.
 
-# To be clear ...
+## To be clear ...
 I actually decided to bring a few people into this and hey are currently also maintainers with two of us being the overall curators of the project.
 
 It's a (re)learning experience for all of us. I wanted to come back to basics but then realized that many more than just I could benefit from the labours of my work.
@@ -22,7 +22,7 @@ First thing's first though. I need to do the table of contents and then go from 
 
 In the mean time since I don't plan to have a twitter or blog for this (everything is within the code) I'll have the updates written within this file. Newest first at the bottom.
 
-### Getting started
+## Getting started
 You'll need to setup your environment so that you can run and edit these tests in order to learn more.
 
 I do all my development in Netbeans on OSX. So cry and complain all you want I'm going to base all of my instructions on that. Sorry folks (not really sorry).
@@ -38,13 +38,9 @@ I do all my development in Netbeans on OSX. So cry and complain all you want I'm
 * Read that.
 * Work through the rest.
 
-### Updates
+## Updates
 ### Tue Dec 11 20:53:35 EST 2012
-<<<<<<< HEAD
-Added the POM project, project files and sub folders.
-=======
-Added the POM project, project files and sub folders. 
 
-### The list I plan to cover as best I can AS WELL as doing the book.
+
+## Planned data structures
 http://en.wikipedia.org/wiki/List_of_data_structures
->>>>>>> Moved just about everything around.
